@@ -1,1 +1,1 @@
-# ekskul-day-06-html-template-stevaniawanggai
+# ekskul-day06-html-template-janzen
