@@ -53,16 +53,59 @@
                             <i class="fa-solid fa-house me-1"></i> Dasbor                            
                         </a>
 
-                        <a href="siswa-read.html" class="list-group-item list-group-item-action d-flex justify-content-between active">
+                        <a href="siswa-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
                             <div>
                                 <i class="fa-solid fa-graduation-cap me-1"></i> Siswa
                             </div>  
-                            <span class="badge bg-light text-primary">11</span>               
+                            <span class="badge bg-primary">11</span>                         
                         </a>
 
                         <a href="tutor-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
                             <div>
                                 <i class="fa-solid fa-user-tie me-1"></i> Tutor
+                            </div>  
+                            <span class="badge bg-primary">12</span>                          
+                        </a>
+
+                        <a href="mata-pelajaran-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-book-open-reader"></i> Mata Pelajaran
+                            </div>  
+                            <span class="badge bg-primary">12</span>                          
+                        </a>
+
+                        <a href="ekskul-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-people-group"></i></i> Ekskul
+                            </div>  
+                            <span class="badge bg-primary">12</span>                          
+                        </a>
+
+                        <a href="laptop-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-laptop"></i> Laptop
+                            </div>  
+                            <span class="badge bg-primary">12</span>                          
+                        </a>
+
+                        <a href="buku-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-book"></i> Buku
+                            </div>  
+                            <span class="badge bg-primary">12</span>                          
+                        </a>
+
+                        <a href="universitas-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-building-columns"></i> Universitas
+                            </div>  
+                            <span class="badge bg-primary">12</span>                          
+                        </a>
+
+
+                        <a href="jurusan-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                               <i class="fa-solid fa-tag"></i> Jurusan
                             </div>  
                             <span class="badge bg-primary">12</span>                          
                         </a>
@@ -83,43 +126,84 @@
 
                         <div class="card-header d-flex justify-content-between">
 
-                            <h3>Update <span class="fw-bold"><i class="fa-solid fa-graduation-cap"></i> Siswa</span></h3>
+                            <h3>Update <span class="fw-bold"><i class="fa-solid fa-graduation-cap"></i> Jurusan</span></h3>
 
                             <div>
-                                <a href="./siswa-read.html" class="btn btn-dark"><i class="fa-solid fa-left-long me-1"></i> Kembali</a>
+                                <a href="./jurusan-read.html" class="btn btn-dark"><i class="fa-solid fa-left-long me-1"></i> Kembali</a>
                             </div>
 
                         </div>
 
                         <div class="card-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <form>
 
-                            <form>
-
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <img src="./assets/img/user-male-1.png" alt="Picture" class="img img-thumbnail" style="width: 100px;">
-                                    </li>
-                                    <li class="list-group-item">
-                                        <label for="nama-lengkap" class="form-label">Nama Lengkap</label>
-                                        <input type="text" name="nama-lengkap" class="form-control form-control-lg" value="Beri Pahabol">
-                                    </li>
-                                    <li class="list-group-item">
-                                        <label for="alamat-email" class="form-label">Alamat Email</label>
-                                        <input type="mail" name="alamat-email" class="form-control form-control-lg" value="b.pahabol@mail.com">
-                                        </span>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <label for="jenis-kelmin" class="form-label">Jenis Kelamin</label>
-                                        <select name="jenis-kelmin" id="" class="form-select form-select-lg">
-                                            <option selected>Pilih</option>
-                                            <option value="Laki-Laki">Laki-Laki</option>
-                                            <option value="Perempuan">Perempuan</option>
-                                        </select>
-                                    </li>
-                                </ul>
-
-                            </form>
-
+                                        <ul class="list-group">
+                                           
+                                            <li class="list-group-item">
+                                                <label for="nama-lengkap" class="form-label">Nama Lengkap</label>
+                                                <input type="text" name="nama-lengkap" class="form-control form-control-lg" placeholder="Tulis nama lengkap...">
+                                            </li>
+                                            <li class="list-group-item">
+                                                <label for="fakultas" class="form-label">Fakultas</label>
+                                                <select name="fakultas" id="" class="form-select form-select-lg">
+                                                    <option selected>Pilih</option>
+                                                    <option value="Business">Economics and Business</option>
+                                                    <option value="Engineering">Engineering</option>
+                                                    <option value="Medicine and Health">Medicine and Health</option>
+                                                    <option value="Science and Mathematics">Science and Mathematics</option>
+                                                    <option value="Architecture">Architecture</option>
+                                                    <option value="Psychology">Psychology</option>
+                                                    <option value="Fisheries and Marine Science">Fisheries and Marine Science</option>
+                                                    <option value="Law">Law</option>
+                                                    <option value="Social Science and Political Science">Social Science and Political Science</option>
+                                                    
+                                                </select>
+                                            
+                                            </li>
+                                            <li class="list-group-item">
+                                                <label for="Jurusan" class="form-label">Jurusan</label>
+                                                <select name="jurusan" id="" class="form-select form-select-lg">
+                                                    <option selected>Pilih</option>
+                                                    <option value="Commerce">Commerce</option>
+                                                    <option value="Environmental Engineering">Environmental Engineering</option>
+                                                    <option value="Computer Engineering">Computer Engineering</option>
+                                                    <option value="Mechanical Engineering">Mechanical Engineering</option>
+                                                    <option value="Arts (International Aid and Development)">Arts (International Aid and Development)</option>
+                                                    <option value="Coastal and Marine Science">Coastal and Marine Science</option>
+                                                    <option value="Social Science">Social Science</option>
+                                                    <option value="Information Technology">Information Technology</option>
+                                                    <option value="Logistics and Supply Chain Management">Logistics and Supply Chain Management</option>
+                                                    <option value="Architectural Science">Architectural Science</option>
+                                                    <option value="Business Administration">Business Administration</option>
+                                                    <option value="Health Science">Health Science</option>
+                                                    <option value="International Relations">International Relations</option>
+                                                    <option value="Civil and Environmental engineering">Civil and Environmental engineering</option>
+                                                    <option value="Law">Law</option>
+                                                    <option value="Psychology">Psychology</option>
+                                                    <option value="Electrical and Electronic Engineering">Electrical and Electronic Engineering</option>
+                                                    <option value="Business( Enterpreneurship and Innovation )">Business( Enterpreneurship and Innovation )</option>
+        
+                                                </select>
+                                            </li>
+                                        </ul>
+        
+                                    </form>
+        
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <img src="./assets/img/user-empty.png" alt="Picture" class="img img-thumbnail" style="width: 100px;">
+                                            
+                                            <label for="nama-lengkap" class="form-label d-block mt-2">Gambar</label>
+                                            <input type="file" class="form-control form-control-lg">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        
                         </div>
 
                         <div class="card-footer">
@@ -146,7 +230,7 @@
                 Copyright &copy; 2022 - <a href="https://sacode.web.id" class="text-decoration-none link-secondary fw-bold" target="_blank">SaCode CRUD Template</a>
             </div>
             <div>
-                Designed by <a href="https://github.com/janzenfaidiban" class="text-decoration-none link-secondary fw-bold" target="_blank">@janzenfaidiban</a>
+                Designed by <a href="https://github.com/Stevaniawanggai11" class="text-decoration-none link-secondary fw-bold" target="_blank">@stevaniawanggai11</a>
             </div>
         </div>
     </footer>
